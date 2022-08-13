@@ -1,0 +1,60 @@
+:root {
+    --color-1: #242526;
+    --color-2: white;
+    --color-3: #0084ff;
+    --color-4: grey;
+    --color-5: #eb4034;
+    --color-6: #333;
+}
+
+.user-wrapper{
+    padding: 0px 10px ;
+    cursor: pointer;
+    border-radius:5px;
+
+}
+.user-wrapper:hover{
+    background-color:grey ;
+}
+
+.user-info {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom: 1px solid grey;
+}
+
+.user-detail{
+    display:flex;
+    align-items:center;
+}
+
+.user-detail h4 {
+    margin-left: 10px;
+}
+
+.avatar {
+    width: 50px;
+    height:50px;
+    border-radius:50%;
+    border: 1px solid var(--color-4);
+}
+
+.user-status{
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+}
+
+.online{
+    color: #34eb52;
+}
+
+.offline {
+    color: var(--color-5);
+}
+
+.stat{
+    position: relative;
+    top: 17px;
+}
